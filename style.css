@@ -7,6 +7,16 @@
 body{
     background: #1c1b1b;
 }
+.retourMenu{
+    position: fixed;
+    text-decoration: none;
+    top : 4%;
+    left : 2%;
+    padding: 10px 12px;
+    color: #fff;
+    background: #053de3;
+    border-radius: 5px;
+}
 
 #all-contained{
     position: absolute;
