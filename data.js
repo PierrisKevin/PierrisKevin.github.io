@@ -1,49 +1,41 @@
 let question = [
-    ["Je me place toujours devant vous, tout le jours a tout heure et a chaque minute", "L'avenir"],
-    ["Je suis l'aine de mes 25 freres, J'ai fait 3 fois le tour du Canada, 3 fois le tour du Sahara. Qui suis-je ?", "Lettre A"],
-    ["Quand tu marche je parle et quand tu t'arret je me tais", "Dia tongotra"],
+    ["Je me place toujours devant vous, tout le jours a tout heure et a chaque minute", "L'avenir", "avenir"],
+    ["Je suis l'aine de mes 25 freres, J'ai fait 3 fois le tour du Canada, 3 fois le tour du Sahara. Qui suis-je ?", "Lettre A", "A"],
+    ["Quand tu marche je parle et quand tu t'arret je me tais", "Dia tongotra", "tongotra"],
     ["3 chats sont frere et soeur Moulu, Souki et Louki, Quelle est le prenom de la mere", "Quelle"],
     ["Je suis blanc, peit et fait pleurer", "don't know"],
-    ['A quelle question est-ce que vous ne pourrez jamais répondre "oui"?', 'Es-tu déjà endormi ?'],
-    ["Je me brise lorsque l'on me nomme.", 'Le silence'],
-    ["Une personne sûre d'elle dit qu'elle répond à tout…ujours la vérité.\nComment pouvez-vous la piéger ?", 'Est-ce que le prochain mot que tu vas dire est "non"']
-    ,['Avez-vous remarquez que si vous faites tomber un v…l se casse toujours au dernier rebond.\nPourquoi ?', "C'est logique, une fois cassé, il ne peut plus rebondir"]
-    ,['Un berger possède 27 brebis. Toutes meurent sauf 8.\n\nCombien en reste-t-il ?', "8...  Si vous avez répondu 19 c'est que vous vous … première fois que j'ai entendu cette devinette"]
-    ,["La population mondiale est de 8 milliards d'humain…nète les uns par les autres.\nCombien obtient-on ?", "0"]
-    ,['Deux enseignes vendant le même produit se font fac…e font pas concurrence.\nComment est-ce possible ?', "Ce sont deux stations services sur l'autoroute"]
-    ,["Qu'est ce qui vous appartient bien que les gens l'utilisent plus que vous ?", 'Votre prénom']
-    ,['Vous pouvez me trouver dans décembre mais pas dans les autres mois.\nQue suis-je ?', 'La lettre D']
-    ,['Durant quel mois on dort le moins ?', "Février, car c'est celui qui a le moins de jours"]
-    ,["Qu'est ce qui a 13 cœurs mais aucun autre organe ?", 'Un jeu de carte.']
-    ,['Dans quelle situation le chiffre deux est égale à dix ?', "Lorsqu'on lit les minutes sur une montre à aiguille"]
-    ,["Qu'est ce que vous pouvez attraper mais pas jeter ?", 'Un rhume.']
-    ,["Qu'est ce que l'on doit casser avant de l'utiliser? (Attention, ce n'est pas votre ordinateur!!!)", 'Un œuf']
-    ,['Qui se lève sans faire de bruit ?', 'Le jour']
-    ,["Qu'est ce qui réfléchit sans réfléchir ?", 'Un miroir']
-    ,["Qu'est-ce qu'une éclipse ?", "C'est une sombre histoire entre la lune et le soleil"]
-    ,["Qu'est ce que du ciment dans un pot ?\n\n", 'De la confiture de mur']
-    ,['Quel est le mode de transport préféré des vampires ?', 'Le vaisseau sanguin']
-    ,['Combien font 3 et 3 ?', 'Match nul']
-    ,["Un éléphant rentre dans un bar, que prend t'il ?", 'De la place']
-    ,["Qu'est-ce qui a deux aiguilles mais qui ne pique pas ?", 'Une montre']
-    ,["Quelle est l'expression que les vampires répètent souvent ?", 'Bon sang']
-    ,["qu'est ce qui a 2 branches mais pas de feuille ?", 'Des lunettes']
-    ,['Quel est le numéro préféré du vampire ?', 'Le 100']
-    ,["Qu'est-ce qui est jaune avec une cape ?", 'Une banane qui essaie d’imiter super tomate']
-    ,["C'est le fils de ma mère mais c'est pas mon frère, qui est-ce ?", "C'est moi"]
-    ,['Où sont les poissons sportifs ?', 'Dans une mare à thon. (marathon)']
-    ,["Quel est l' animal le plus collant ?", 'Le dromadaire... parce que le drom adhère']
-    ,['Quel est le fruit préféré des militaires ?', 'La grenade']
-    ,['Pourquoi Mickey Mousse ?', 'Parce-que Mario Brosse']
-    ,["On m'entend mais on ne me voit pas.\nQui suis-je ?", 'La voix']
-    ,['Quel est le plat préféré des pompiers ?', 'Le pot au feu']
-    ,["Qu'est-ce qui peut faire le tour d'une maison sans bouger ?", 'Le mur']
-    ,['Quand je mange je grandis et quand je bois je meurs.\nQui suis je ?', 'Le feu']
-    ,['Que dit une virgule à un point ?', 'Arrête de me couper la parole ou je te mets entre parenthèses']
-    ,['Je peux faire le tour du monde tout en restant dans mon coin.', 'Un timbre']
-    ,["Qu'est-ce qui est né grand, et qui meurt petit ?", 'Une Bougie']
-    ,['Qui tombe sans se faire mal ?', 'La nuit']
-    ,['Sans moi, Paris serait pris.', 'La lettre A']
+    ['A quelle question est-ce que vous ne pourrez jamais répondre "oui"?', 'Es-tu déjà endormi ?', "endormi"],
+    ["Je me brise lorsque l'on me nomme.", 'Le silence', "silence"],
+    ,["Qu'est ce qui vous appartient bien que les gens l'utilisent plus que vous ?", 'Votre prénom', "prenom"]
+    ,['Vous pouvez me trouver dans décembre mais pas dans les autres mois.\nQue suis-je ?', 'La lettre D', "D"]
+    ,['Durant quel mois on dort le moins ?', "Février, car c'est celui qui a le moins de jours", "fevrier"]
+    ,["Qu'est ce qui a 13 cœurs mais aucun autre organe ?", 'Un jeu de carte.', "carte"]
+    ,["Qu'est ce que vous pouvez attraper mais pas jeter ?", 'Un rhume.', "rhume"]
+    ,["Qu'est ce que l'on doit casser avant de l'utiliser? (Attention, ce n'est pas votre ordinateur!!!)", 'Un œuf', "oeuf"]
+    ,['Qui se lève sans faire de bruit ?', 'Le jour', "jour"]
+    ,["Qu'est ce qui réfléchit sans réfléchir ?", 'Un miroir', "mirroir"]
+    ,["Qu'est-ce qu'une éclipse ?", "C'est une sombre histoire entre la lune et le soleil", "soleil"]
+    ,["Qu'est ce que du ciment dans un pot ?\n\n", 'De la confiture de mur', "confiture"]
+    ,['Quel est le mode de transport préféré des vampires ?', 'Le vaisseau sanguin', "sanguin"]
+    ,['Combien font 3 et 3 ?', 'Match nul', "nul"]
+    ,["Un éléphant rentre dans un bar, que prend t'il ?", 'De la place', "place"]
+    ,["Qu'est-ce qui a deux aiguilles mais qui ne pique pas ?", 'Une montre', "montre"]
+    ,["Quelle est l'expression que les vampires répètent souvent ?", 'Bon sang', "sang"]
+    ,["qu'est ce qui a 2 branches mais pas de feuille ?", 'Des lunettes',"lunette"]
+    ,['Quel est le numéro préféré du vampire ?', 'Le 100',"100"]
+    ,["Qu'est-ce qui est jaune avec une cape ?", 'Une banane qui essaie d’imiter super tomate', "banane"]
+    ,["C'est le fils de ma mère mais c'est pas mon frère, qui est-ce ?", "C'est moi", "moi"]
+    ,['Où sont les poissons sportifs ?', 'Dans une mare à thon. (marathon)', "marathon"]
+    ,["Quel est l' animal le plus collant ?", 'Le dromadaire... parce que le drom adhère', "dromadaire"]
+    ,['Quel est le fruit préféré des militaires ?', 'La grenade', "grenade"]
+    ,['Pourquoi Mickey Mousse ?', 'Parce-que Mario Brosse', "mario"]
+    ,["On m'entend mais on ne me voit pas.\nQui suis-je ?", 'La voix', "voix"]
+    ,['Quel est le plat préféré des pompiers ?', 'Le pot au feu', "feu"]
+    ,["Qu'est-ce qui peut faire le tour d'une maison sans bouger ?", 'Le mur', "mur"]
+    ,['Quand je mange je grandis et quand je bois je meurs.\nQui suis je ?', 'Le feu', "feu"]
+    ,["Qu'est-ce qui est né grand, et qui meurt petit ?", 'Une Bougie', "bougie"]
+    ,['Qui tombe sans se faire mal ?', 'La nuit', "nuit"]
+    ,['Sans moi, Paris serait pris.', 'La lettre A', "a"]
 
 ]
 
@@ -99,7 +91,16 @@ function scoreRef(){
     tente.textContent = tentative
 }
 
-
+function letterSearch(valeur, response){
+    const respTab = valeur.split(" ");
+    ch = false;
+    respTab.forEach((tab)=>{
+        if (tab.toLocaleLowerCase()==response.toLocaleLowerCase()){
+            ch = true;
+        }
+    })
+    return ch;
+}
 /* FIn du section score */
 
 const container = document.querySelector("#question-contain")
@@ -112,7 +113,7 @@ let ind = start()
 
 form.addEventListener("submit", (e)=>{
     if (tentative>1){
-        if (form.childNodes[1].value.toLocaleLowerCase()==question[ind][1].toLocaleLowerCase()){
+        if ((form.childNodes[1].value.toLocaleLowerCase()==question[ind][1].toLocaleLowerCase()) ||  (letterSearch(form.childNodes[1].value.toLocaleLowerCase(), question[ind][2].toLocaleLowerCase()))){
             //console.log("Bravo")
             tentative=3
             score+=1
